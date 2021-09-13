@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-size: 15px;
+  background-size: cover;
+}
+body {
+  background-color: hsl(233, 47%, 7%);
+}
+.item {
+  width: 80vw;
+  height: 446px;
+  background-color: hsl(244, 38%, 16%);
+  margin: 89px auto;
+  border-radius: 20px;
+  position: relative;
+}
+img {
+  float: right;
+  object-fit: contain;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  opacity: 0.8;
+}
+.img {
+  width: 540px;
+  height: 446px;
+  background: hsl(277, 64%, 61%);
+  float: right;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.section {
+  /* background: aqua; */
+  width: 50%;
+  height: 100%;
+  clear: right;
+  position: absolute;
+}
+h1 {
+  color: hsl(0, 0%, 100%);
+  font-family: "Inter", sans-serif;
+  font-size: 35px;
+  position: relative;
+  left: 70px;
+  top: 40px;
+  width: 400px;
+}
+span {
+  font-size: 35px;
+  color: hsl(277, 64%, 61%);
+}
+p {
+  position: relative;
+  left: 70px;
+  top: 80px;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: "Lexend Deca", sans-serif;
+  width: 400px;
+}
+table {
+  position: relative;
+  left: 70px;
+  top: 180px;
+  width: 400px;
+}
+.one td {
+  color: hsl(0, 0%, 100%);
+  font-family: "Inter", sans-serif;
+  font-size: 25px;
+  transition: all 0.5s;
+}
+.two td {
+  color: hsla(0, 0%, 100%, 0.6);
+  text-transform: uppercase;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 13px;
+}
+.one > td:hover {
+  font-size: 26px;
+}
+@media screen and (max-width: 600px) {
+}
