@@ -1,2 +1,2 @@
 # states-preview-card
-responsive design relative to screen view of destops and mobile
+https://gayuru-anjana.github.io/states-preview-card/
